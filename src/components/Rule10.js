@@ -24,9 +24,9 @@ class Rule10 extends Component {
     if (this.props.password){        
       const result =  !this.state.data ? 
       <>
-      <Display group='pass' name='Rule 10'>Not Among the Common Password</Display>
+      <Display group='pass' name='Rule 10'>It is Not Among the Common Passwords</Display>
       </> :  
-      <Display group='fail' name='Rule 10'>Among the Common Password</Display>
+      <Display group='fail' name='Rule 10'>It is Among the Common Passwords</Display>
       return result
     }
 }

@@ -8,9 +8,9 @@ class Rule4 extends Component {
       const result =  this.props.password.match(/[\W_].*[\W_]/g) ? 
       <>
       <Rule5 password={this.props.password} />
-      <Display group='pass' name='Rule 4'>Contains Special Character</Display>
+      <Display group='pass' name='Rule 4'>It Contains atleast two Special Character</Display>
       </> :  
-      <Display group='fail' name='Rule 4'>Doesn't contain Special Character</Display>
+      <Display group='fail' name='Rule 4'>It must contain Special Character</Display>
       return result
     }
 }

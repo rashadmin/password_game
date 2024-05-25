@@ -9,9 +9,9 @@ class Rule2 extends Component {
       const result =  this.props.password.match(/[A-Z].*[A-Z]+/g) ? 
       <>
        <Rule3 password={this.props.password} />
-      <Display group = 'pass' name='Rule 2'>Contains atleast 2 Upper Case Character</Display>  
+      <Display group = 'pass' name='Rule 2'>It Contains atleast 2 Upper Case Character</Display>  
       </> : 
-      <Display group ='fail' name='Rule 2'>Doesn't contain atleast 2 Upper Case Character</Display>
+      <Display group ='fail' name='Rule 2'>It must contain atleast 2 Upper Case Character</Display>
       return(result)
     }
 }

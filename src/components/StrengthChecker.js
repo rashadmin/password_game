@@ -8,7 +8,6 @@ const PasswordStrengthMeter = ({ password }) => {
   return (
     <div>
       <progress value={strength} max="100"></progress>
-      <p>{testedResult.feedback.suggestions.join(' ')}</p>
     </div>
   );
 };

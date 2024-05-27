@@ -23,7 +23,7 @@ class App extends Component {
             <PasswordStrengthMeter password={this.state.test_password} />
             <div className='info'>
                       <p>Also check out the following links to further test the strength of the password</p>
-                      <a href='https://bitwarden.com/'>BitWarden</a>
+                      <a href='https://bitwarden.com/password-strength/'>BitWarden</a>
                       <a href='https://passwordmeter.com/'>Password Meter</a>
                       <a href='https://password.kaspersky.com/'>Kaspersky</a>
             </div>
